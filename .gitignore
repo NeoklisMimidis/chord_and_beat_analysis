@@ -1,0 +1,9 @@
+__pycache__/
+.vscode
+.others
+
+# Ignore all files in the data/audio directory
+data/audio/*
+
+# But keep the .gitkeep file to track the empty directory
+!data/audio/.gitkeep
